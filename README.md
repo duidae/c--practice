@@ -1,4 +1,4 @@
-# c++practice
+# c++ practice
 ## C++
 * [高速上手C++11/14](https://legacy.gitbook.com/book/changkun/cpp1x-tutorial/details)
 * [move semantics(shallow copy)](https://www.youtube.com/watch?v=IOkgBrXCtfo)

@@ -13,5 +13,6 @@
   * [http://www.cplusplus.com/reference/stl/](http://www.cplusplus.com/reference/stl/)
 * auto
   * https://zh.wikipedia.org/wiki/Auto_(C%2B%2B)
+  * 用在iterator good
 * extern, static
   * https://medium.com/@alan81920/c-c-%E4%B8%AD%E7%9A%84-static-extern-%E7%9A%84%E8%AE%8A%E6%95%B8-9b42d000688f

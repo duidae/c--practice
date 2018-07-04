@@ -2,6 +2,7 @@
 ## C++
 * [高速上手C++11/14](https://legacy.gitbook.com/book/changkun/cpp1x-tutorial/details)
 * [move semantics(shallow copy)](https://www.youtube.com/watch?v=IOkgBrXCtfo)
+  * 避免deep copy物件
 * lambda expression(anonymous function)
   * [https://en.wikipedia.org/wiki/Anonymous_function#C++_(since_C++11)](https://en.wikipedia.org/wiki/Anonymous_function#C++_(since_C++11))
   * [http://en.cppreference.com/w/cpp/language/lambda](http://en.cppreference.com/w/cpp/language/lambda)

@@ -18,7 +18,7 @@
 * extern, static
   * https://medium.com/@alan81920/c-c-%E4%B8%AD%E7%9A%84-static-extern-%E7%9A%84%E8%AE%8A%E6%95%B8-9b42d000688f
   
-## makefile
+## Makefile
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html
 * cmake: https://zh.wikipedia.org/wiki/CMake
   * cmake = "Cross platform MAke", 雖然名字中含有"make"，但是CMake和Unix上常見的「make」系統是分開的，而且更為高階

@@ -4,11 +4,11 @@
 
 all: cpp
 
-cpp: Time.cpp fig09_03.cpp
+cpp: Date.cpp fig09_19.cpp
 
 clean:
 	rm -f *.o
 
-fig09_03: Time.cpp fig09_03.cpp
-	c++ Time.cpp fig09_03.cpp -o fig09_03.o
+fig09_19: Date.cpp fig09_19.cpp
+	c++ Date.cpp fig09_19.cpp -o fig09_19.o
 

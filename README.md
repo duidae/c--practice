@@ -17,7 +17,16 @@
   * 用在iterator good
 * extern, static
   * https://medium.com/@alan81920/c-c-%E4%B8%AD%E7%9A%84-static-extern-%E7%9A%84%E8%AE%8A%E6%95%B8-9b42d000688f
-  
+
+## 良好的軟體工程基本原則
+* 最小權限原則：利用const於compile time強制執行最小權限原則
+* const: 不能改東西
+  * const member
+    * const int time;
+  * const memeber function: function不能修改物件內容, 唯讀
+    * int getTime() const;
+  * const object: 不能呼叫非const的member function
+
 ## Makefile
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html
 * cmake: https://zh.wikipedia.org/wiki/CMake

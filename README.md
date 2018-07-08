@@ -23,6 +23,7 @@
 * const: 不能改東西
   * const member
     * const int time;
+    * const object不能用assign, 必須用初始化設值
   * const memeber function: function不能修改物件內容, 唯讀
     * int getTime() const;
   * const object: 不能呼叫非const的member function

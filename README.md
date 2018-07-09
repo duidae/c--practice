@@ -33,6 +33,6 @@
 * cmake: https://zh.wikipedia.org/wiki/CMake
   * cmake = "Cross platform MAke", 雖然名字中含有"make"，但是CMake和Unix上常見的「make」系統是分開的，而且更為高階
   
-## Ctags
+## ctags
 * $ sudo yum install -y ctags
-* $ ctags -r
+* $ ctags -R  // R要大寫

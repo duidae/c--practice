@@ -56,6 +56,9 @@ s1 = s0.c_str();
     * int getTime() const;
   * const object: 不能呼叫非const的member function
   * const pointer: 不能修改pointer
+    * const char* the_string
+    * char* const the_string
+    * const char* const the_string
 ```
 char* the_string : I can change the char to which the_string points, and I can modify the char at which it points.
 const char* the_string : I can change the char to which the_string points, but I cannot modify the char at which it points.

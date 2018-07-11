@@ -20,7 +20,7 @@
 * std::string
   * https://shaharmike.com/cpp/std-string/
 * return reference
-  * 變數必須是static, 否則functino結束stack收回變數就消失了
+  * return的變數必須是static, 否則functino結束stack收回變數就消失了
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

@@ -21,6 +21,23 @@
   * https://shaharmike.com/cpp/std-string/
 * return reference
   * return的變數必須是static, 否則functino結束stack收回變數就消失了
+```
+  int& getInt() {
+    int i;
+    return i;  // DON'T DO THIS.
+  }
+  
+  int& getInt() {
+    int* i = new int;
+    return *i;  // DON'T DO THIS.
+  }
+  
+  int& getInt()
+  {
+   static int x = 4;
+   return x;  // 
+  }
+```
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

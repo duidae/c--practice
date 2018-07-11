@@ -20,7 +20,7 @@
 * std::string
   * https://shaharmike.com/cpp/std-string/
 * return reference
-  * return的變數必須是static, 否則functino結束stack收回變數就消失了
+  * return的變數必須是static, 否則function結束stack收回變數就消失了
 ```
   int& getInt() {
     int i;

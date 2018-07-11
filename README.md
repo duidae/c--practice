@@ -19,6 +19,8 @@
   * https://medium.com/@alan81920/c-c-%E4%B8%AD%E7%9A%84-static-extern-%E7%9A%84%E8%AE%8A%E6%95%B8-9b42d000688f
 * std::string
   * https://shaharmike.com/cpp/std-string/
+* return reference
+  * 變數必須是static, 否則functino結束stack收回變數就消失了
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

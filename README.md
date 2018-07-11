@@ -70,6 +70,8 @@ const char* const the_string : I cannot change the char to which the_string poin
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html
 * cmake: https://zh.wikipedia.org/wiki/CMake
   * cmake = "Cross platform MAke", 雖然名字中含有"make"，但是CMake和Unix上常見的「make」系統是分開的，而且更為高階
+* TODO
+  * makefile練習
   
 ## ctags
 * $ sudo yum install -y ctags

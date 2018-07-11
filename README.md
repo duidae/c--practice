@@ -55,6 +55,13 @@ s1 = s0.c_str();
   * const memeber function: function不能修改物件內容, 唯讀
     * int getTime() const;
   * const object: 不能呼叫非const的member function
+  * const pointer: 不能修改pointer
+```
+char* the_string : I can change the char to which the_string points, and I can modify the char at which it points.
+const char* the_string : I can change the char to which the_string points, but I cannot modify the char at which it points.
+char* const the_string : I cannot change the char to which the_string points, but I can modify the char at which it points.
+const char* const the_string : I cannot change the char to which the_string points, nor can I modify the char at which it points.
+```
 
 ## Makefile
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html

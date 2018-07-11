@@ -34,8 +34,8 @@
   
   int& getInt()
   {
-   static int x = 4;
-   return x;  // OK
+    static int x = 4;
+    return x;  // OK
   }
 ```
 

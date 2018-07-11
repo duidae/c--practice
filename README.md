@@ -38,6 +38,13 @@
     return x;  // OK
   }
 ```
+* convert string to char* in C++
+  * https://stackoverflow.com/questions/12862739/convert-string-to-char
+```
+std::string s0 = "hello";
+const char *s1;
+s1 = s0.c_str();
+```
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

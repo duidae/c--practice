@@ -77,6 +77,8 @@ const char* the_string : I can change the char to which the_string points, but I
 char* const the_string : I cannot change the char to which the_string points, but I can modify the char at which it points.
 const char* const the_string : I cannot change the char to which the_string points, nor can I modify the char at which it points.
 ```
+* include 雙引號 角括號
+  * https://msdn.microsoft.com/zh-tw/library/36k2cdd4.aspx
 
 ## Makefile
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html

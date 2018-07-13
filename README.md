@@ -79,6 +79,8 @@ const char* const the_string : I cannot change the char to which the_string poin
 ```
 * include 雙引號 角括號
   * https://msdn.microsoft.com/zh-tw/library/36k2cdd4.aspx
+* template
+  * http://rocksaying.tw/archives/3641717.html
 
 ## Makefile
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html

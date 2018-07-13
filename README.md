@@ -57,6 +57,10 @@ class FooC : public FooA, public FooB {  // C繼承A+B
   * explicit关键字到底是什么作用呢？它的作用就是禁止轉換。如文章一开始而言，凡是用explicit关键字修饰的构造函数，编译时就不会进行自动转换，而会报错。
 * override
   * https://kheresy.wordpress.com/2014/10/03/override-and-final-in-cpp-11/
+* include 雙引號 角括號
+  * https://msdn.microsoft.com/zh-tw/library/36k2cdd4.aspx
+* template
+  * http://rocksaying.tw/archives/3641717.html
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則
@@ -77,10 +81,6 @@ const char* the_string : I can change the char to which the_string points, but I
 char* const the_string : I cannot change the char to which the_string points, but I can modify the char at which it points.
 const char* const the_string : I cannot change the char to which the_string points, nor can I modify the char at which it points.
 ```
-* include 雙引號 角括號
-  * https://msdn.microsoft.com/zh-tw/library/36k2cdd4.aspx
-* template
-  * http://rocksaying.tw/archives/3641717.html
 
 ## Makefile
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html

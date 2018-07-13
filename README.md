@@ -45,6 +45,12 @@ std::string s0 = "hello";
 const char *s1;
 s1 = s0.c_str();
 ```
+* c++繼承,多重繼承
+  * https://openhome.cc/Gossip/CppGossip/MultiInheritance1.html
+```
+class FooC : public FooA, public FooB {  // C繼承A+B
+}
+```
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

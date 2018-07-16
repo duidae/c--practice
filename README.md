@@ -45,6 +45,22 @@ std::string s0 = "hello";
 const char *s1;
 s1 = s0.c_str();
 ```
+* c++繼承,多重繼承
+  * https://openhome.cc/Gossip/CppGossip/MultiInheritance1.html
+```
+class FooC : public FooA, public FooB {  // C繼承A+B
+}
+```
+* c++ explicit
+  * http://ot-note.logdown.com/posts/173174/note-cpp-named-type-convertion
+  * 由於編譯器 (compiler) 有可能自動在建構函數 (constructor) 的參數 (parameter) 進行隱性型態轉換 (implicit type conversion) ，也就是將參數轉換成類別型態，因而造成一些奇怪的結果，這時需要把建構函數宣告為 explicit ，使之禁止編譯器進行轉換工作
+  * explicit关键字到底是什么作用呢？它的作用就是禁止轉換。如文章一开始而言，凡是用explicit关键字修饰的构造函数，编译时就不会进行自动转换，而会报错。
+* override
+  * https://kheresy.wordpress.com/2014/10/03/override-and-final-in-cpp-11/
+* include 雙引號 角括號
+  * https://msdn.microsoft.com/zh-tw/library/36k2cdd4.aspx
+* template
+  * http://rocksaying.tw/archives/3641717.html
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

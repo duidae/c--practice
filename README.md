@@ -61,6 +61,29 @@ class FooC : public FooA, public FooB {  // C繼承A+B
   * https://msdn.microsoft.com/zh-tw/library/36k2cdd4.aspx
 * template
   * http://rocksaying.tw/archives/3641717.html
+* enum
+  * 建議使用 enum 來做狀態的判斷，以下方法不但直覺而且所佔的記憶體也少，不管你設了幾個列舉，他都只占一個 int (32 bit) 的記憶體位置
+```
+enum GameStatus
+{
+  Menu,      // 開頭選單
+  Loading,   // 載入畫面
+  Playing,   // 遊戲進行中
+  Pause,     // 遊戲暫停
+  GameOver   // 遊戲結束
+}
+ 
+GameStatus status = GameStatus.Menu;
+ 
+if ( status == GameStatus.Menu )
+{
+  // 開頭選單處理......
+}
+if ( status == GameStatus.Playing )
+{
+  // 遊戲進行中處理......
+}
+```
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

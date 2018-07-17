@@ -115,3 +115,7 @@ const char* const the_string : I cannot change the char to which the_string poin
 ## ctags
 * $ sudo yum install -y ctags
 * $ ctags -R  // R要大寫
+
+## GCC
+* 裝新的gcc
+  * https://jdhao.github.io/2017/09/04/install-gcc-newer-version-on-centos/

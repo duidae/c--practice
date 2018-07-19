@@ -114,6 +114,12 @@ const char* const the_string : I cannot change the char to which the_string poin
 * TODO
   * makefile練習
   
+## compile
+* undefine reference to/未定義XXXX
+  * https://blog.csdn.net/cserchen/article/details/5503556
+  * -L 指定的路径, 从左到右依次查找
+  * 连接库参数的顺序不对 在默认情况下,对于-l 使用库的要求是越是基础的库越要写在后面,无论是静态还动态
+  
 ## ctags
 * $ sudo yum install -y ctags
 * $ ctags -R  // R要大寫

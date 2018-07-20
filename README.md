@@ -86,6 +86,8 @@ if ( status == GameStatus.Playing )
 ```
 * serialization序列化
    * 為了傳遞object或把object寫入硬碟，透過serialization將object傳輸或放在File等.....
+* extern
+  * https://medium.com/@alan81920/c-c-%E4%B8%AD%E7%9A%84-static-extern-%E7%9A%84%E8%AE%8A%E6%95%B8-9b42d000688f
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則

@@ -108,6 +108,9 @@ const char* the_string : I can change the char to which the_string points, but I
 char* const the_string : I cannot change the char to which the_string points, but I can modify the char at which it points.
 const char* const the_string : I cannot change the char to which the_string points, nor can I modify the char at which it points.
 ```
+## GCC compiler
+* 安裝gcc 8.1.0
+  * https://com-it.tech/archives/37312
 
 ## Makefile
 * makefile 介紹與範例程式 http://mropengate.blogspot.com/2018/01/makefile.html

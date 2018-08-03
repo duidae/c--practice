@@ -134,6 +134,8 @@ const char* const the_string : I cannot change the char to which the_string poin
 ## GCC
 * 裝新的gcc
   * https://jdhao.github.io/2017/09/04/install-gcc-newer-version-on-centos/
+* gcc 常見錯誤解析
+  * http://b8807053.pixnet.net/blog/post/337965512-gcc-%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%9E%90
   
 ## IDE
 * VS code

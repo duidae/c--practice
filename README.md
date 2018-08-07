@@ -126,6 +126,8 @@ const char* const the_string : I cannot change the char to which the_string poin
   * 连接库参数的顺序不对 在默认情况下,对于-l 使用库的要求是越是基础的库越要写在后面,无论是静态还动态
 * link static library(libXXX.a)
   * $ cc -o yourprog yourprog.c libstatic.a
+* 理清gcc、libc、libstdc++的关系
+  * https://blog.csdn.net/haibosdu/article/details/77094833
   
 ## ctags
 * $ sudo yum install -y ctags

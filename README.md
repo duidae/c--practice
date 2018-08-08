@@ -119,7 +119,7 @@ const char* const the_string : I cannot change the char to which the_string poin
 * TODO
   * makefile練習
   
-## compile, linking
+## Compile, linking
 * undefine reference to/未定義參考XXXX
   * https://blog.csdn.net/cserchen/article/details/5503556
   * -L 指定的路径, 从左到右依次查找
@@ -128,22 +128,22 @@ const char* const the_string : I cannot change the char to which the_string poin
   * $ cc -o yourprog yourprog.c libstatic.a
 * 理清gcc、libc、libstdc++的关系
   * https://blog.csdn.net/haibosdu/article/details/77094833
-  
-## ctags
-* $ sudo yum install -y ctags
-* $ ctags -R  // R要大寫
 
 ## GCC
 * 在CentOS上裝gcc devtoolset
   * devtoolset是由CERN維護
     * https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/
-    * scl enable devtoolset-6 bash只是临时覆盖系统原有的GCC引用，如果想永久覆盖，可在.bashrc文件中添加source /opt/rh/devtoolset-7/enable
+    * scl enable devtoolset-7 bash只是临时覆盖系统原有的GCC引用，如果想永久覆盖，可在.bashrc文件中添加source /opt/rh/devtoolset-7/enable
     * http://blog.fungo.me/2016/03/centos-development-env/
 * 裝新的gcc
   * https://jdhao.github.io/2017/09/04/install-gcc-newer-version-on-centos/
 * gcc 常見錯誤解析
   * http://b8807053.pixnet.net/blog/post/337965512-gcc-%E5%B8%B8%E8%A6%8B%E9%8C%AF%E8%AA%A4%E8%A7%A3%E6%9E%90
-  
+
+## ctags
+* $ sudo yum install -y ctags
+* $ ctags -R  // R要大寫
+
 ## IDE
 * VS code
   * "editor.fontSize": 18,

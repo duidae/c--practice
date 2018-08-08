@@ -134,6 +134,11 @@ const char* const the_string : I cannot change the char to which the_string poin
 * $ ctags -R  // R要大寫
 
 ## GCC
+* 在CentOS上裝gcc devtoolset
+  * devtoolset是由CERN維護
+    * https://www.softwarecollections.org/en/scls/rhscl/devtoolset-7/
+    * scl enable devtoolset-6 bash只是临时覆盖系统原有的GCC引用，如果想永久覆盖，可在.bashrc文件中添加source /opt/rh/devtoolset-7/enable
+    * http://blog.fungo.me/2016/03/centos-development-env/
 * 裝新的gcc
   * https://jdhao.github.io/2017/09/04/install-gcc-newer-version-on-centos/
 * gcc 常見錯誤解析

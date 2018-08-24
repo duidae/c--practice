@@ -10,6 +10,9 @@
   * [https://msdn.microsoft.com/zh-tw/library/dd293608.aspx](https://msdn.microsoft.com/zh-tw/library/dd293608.aspx)
   * [https://kheresy.wordpress.com/2010/05/27/c0x%EF%BC%9Alambda-expression/](https://kheresy.wordpress.com/2010/05/27/c0x%EF%BC%9Alambda-expression/)
   * capture: 會用到的變數
+    * [=]: capture by copy 
+    * [&]: capture by reference
+    * https://msdn.microsoft.com/zh-tw/library/dd293608.aspx
 * STL documentation:
   * [http://www.cplusplus.com/reference/stl/](http://www.cplusplus.com/reference/stl/)
 * auto

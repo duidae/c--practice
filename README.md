@@ -93,6 +93,8 @@ if ( status == GameStatus.Playing )
   * https://medium.com/@alan81920/c-c-%E4%B8%AD%E7%9A%84-static-extern-%E7%9A%84%E8%AE%8A%E6%95%B8-9b42d000688f
 * share pointer in c++ 11
   * https://kheresy.wordpress.com/2012/03/05/c11_smartpointer_p2/
+* override, final in c++11
+  * https://kheresy.wordpress.com/2014/10/03/override-and-final-in-cpp-11/
 
 ## 良好的軟體工程基本原則
 * 最小權限原則：利用const於compile time強制執行最小權限原則
